@@ -1,0 +1,35 @@
+/* Start Global Rules */
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 128, 79, 0.699);
+}
+/* End Global Rules */
+
+/* Start Landing */
+.landing{
+    min-height: calc(100vh - 56px);
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/15/08/23/stars-2643089_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing p {
+    line-height: 1.5;
+}
+/* End Landing */
+/* Start Footer */
+footer{
+    color: rgba(8, 255, 160, 0.76);
+}
+/* End Footer */
